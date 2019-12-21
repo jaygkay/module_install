@@ -6,8 +6,8 @@
 
 #### 2. JAVA SE 없을 시에 설치하기
 
-2019.12 기준 최신 버전
-- https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html
+- 2019.12 기준 최신 버전
+  - https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html
 
 `$ /usr/libexec/java_home`
 
