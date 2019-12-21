@@ -24,3 +24,9 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 `$ echo $JAVA_HOME`
 
 /Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
+
+#### 3. JPype와 konlpy 동시 설치
+`export MACOSX_DEPLOYMENT_TARGET=10.10`
+
+`CFLAGS='-stdlib=libc++' pip install konlpy`
+
