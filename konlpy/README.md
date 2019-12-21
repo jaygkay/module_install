@@ -16,6 +16,7 @@
 `$ cat >> ~/.bash_profile`
 
 export JAVA_HOME=$(/usr/libexec/java_home)
+
 `^C`
 
 `$ source ~/.bash_profile`
