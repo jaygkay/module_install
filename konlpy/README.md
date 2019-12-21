@@ -2,7 +2,7 @@
 
 #### 1. xcode 없을 시에 설치하기
 
-`xcode-select --install`
+`$ xcode-select --install`
 
 #### 2. JAVA SE 없을 시에 설치하기
 
@@ -26,7 +26,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 /Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
 
 #### 3. JPype와 konlpy 동시 설치
-`export MACOSX_DEPLOYMENT_TARGET=10.10`
+`$ export MACOSX_DEPLOYMENT_TARGET=10.10`
 
-`CFLAGS='-stdlib=libc++' pip install konlpy`
+`$ CFLAGS='-stdlib=libc++' pip install konlpy`
 
