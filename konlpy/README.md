@@ -9,11 +9,11 @@
 2019.12 기준 최신 버전
 - https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html
 
-₩$ /usr/libexec/java_home₩
+`$ /usr/libexec/java_home`
 /Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
-$ cat >> ~/.bash_profile
+`$ cat >> ~/.bash_profile`
 export JAVA_HOME=$(/usr/libexec/java_home)
-^C
-$ source ~/.bash_profile
-$ echo $JAVA_HOME
+`^C`
+`$ source ~/.bash_profile`
+`$ echo $JAVA_HOME`
 /Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home
