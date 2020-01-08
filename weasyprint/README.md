@@ -1,9 +1,10 @@
 ### To implement Automatic Report
-
-#### !pip install weasyprint
-#### !conda install cairo
-#### !conda install Pango
 ```terminal
+$ pip install weasyprint
+$ conda install cairo
+$ conda install Pango
+$ pip install --upgrade CairoSVG
+$ pip install CPython
 $ vi ~/. bash_profile
 
 export LC_ALL=en_US.UTF-8
